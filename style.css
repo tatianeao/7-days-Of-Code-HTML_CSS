@@ -1,0 +1,26 @@
+:root {
+    --branco-base: #FFFFFF;
+    --cinza-100: #D0D5DD;
+    --cinza-200: #EAECF0;
+    --cinza-400: #98A2B3;
+    --cinza-500: #667085;
+    --cinza-900: #101828;
+    --cinza-rodape: #F9FAFB;
+    --vermelho-base: #8E2424;
+
+    --fonte-padrao: 'Inter', sans-serif;
+    
+}
+
+* {
+    font-family: var(--fonte-padrao);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: var(--branco-base);
+    height: 100vh;
+    width: 100%;
+}
+

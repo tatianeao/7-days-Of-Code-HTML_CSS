@@ -1,0 +1,50 @@
+
+
+.vagas-abertas {
+    color: var(--title-color);
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    max-width: 50%;
+   
+}
+
+.abertas__design {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    
+}
+
+.vaga__cargo {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.vaga {
+    border: 1px solid var(--cinza-200);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.vaga__funcao {
+    color: var(--cinza-900);
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.vaga__informacoes span {
+    color: var(--cinza-500);
+    padding-right: 1rem;
+    
+}
+
+@media  screen and (max-width: 738px) {
+    .vaga {
+        width: 55vw;
+    }
+    
+} 

@@ -1,0 +1,55 @@
+.depoimentos {
+    align-items: center;
+    background-color: rgba(196, 25, 25, 0.03);
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 6rem auto;
+    padding: 3rem 2rem;
+    
+}
+
+.depoimentos__informacao {
+    color: var(--vermelho-base);
+    font-weight:500;
+   
+}
+
+.depoimentos__texto {
+    color: var(--cinza-900);
+    font-size: 1.5rem;
+    font-weight: 500;
+    max-width: 70%;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.depoimentos__imagem {
+    height: 56px;
+    width: 56px;
+}
+
+.funcionario__nome {
+    color: var(--cinza-900);
+    margin: 0.5rem 0;
+}
+
+.funcionario__cargo {
+    color: var(--cinza-500);
+    font-size: 14px;
+    
+}
+
+@media  screen and (max-width: 738px) {
+    .depoimentos {
+        margin-top: 3rem;
+        max-width: 70%;
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+    .depoimentos__texto {
+        font-size: 120%;
+        max-width: 100%;
+    }
+}

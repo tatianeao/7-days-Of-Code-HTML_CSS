@@ -1,0 +1,35 @@
+.sobre {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0.9rem;
+    
+}
+
+.sobre__descricao {
+    color: var(--vermelho-base);
+
+}
+
+.sobre__titulo {
+    color: var(--cinza-900);
+    font-size: 1.9rem;
+    padding: 1.3rem;
+   
+}
+
+.sobre__texto {
+    color: var(--cinza-500);
+    font-size: 1.3rem;
+    line-height: 2rem;
+    max-width: 50%;
+    text-align: center;
+}
+
+@media screen and (max-width: 738px) {
+    .sobre__texto {
+        font-size: 95%;
+        max-width: 80%;
+        
+    }
+}

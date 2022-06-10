@@ -1,0 +1,46 @@
+.metricas {
+    column-gap: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 6rem;
+}
+
+.metricas__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.metricas__titulo {
+    color: var(--vermelho-base);
+    font-size: 3rem;
+    
+}
+
+.metricas__subtitulo {
+    color: var(--cinza-900);
+    font-weight: 500;
+}
+
+.metricas__texto {
+    color: var(--cinza-500);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+@media  screen and (max-width: 738px) {
+    .metricas {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .metricas__item {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}
